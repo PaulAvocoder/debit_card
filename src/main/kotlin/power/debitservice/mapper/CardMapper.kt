@@ -2,12 +2,14 @@ package power.debitservice.mapper
 
 import org.springframework.stereotype.Component
 import power.debitservice.dto.CardReadDto
+import power.debitservice.dto.CardTransactionDto
+import power.debitservice.dto.DetailedCardReadDto
 import javax.smartcardio.Card
 
 
 /**
  * Маппер для карты
- * @author А. Гоманюк
+
  */
 @Component
 class CardMapper {

@@ -7,7 +7,7 @@ import java.util.*
 /**
  * Выпущенная банковская карта клиента *
  * @see Product
- * @author А.Гоманюк, К.Балыков
+
  */
 @Entity
 @NamedEntityGraph(name = "withProduct", attributeNodes = [NamedAttributeNode("product")])

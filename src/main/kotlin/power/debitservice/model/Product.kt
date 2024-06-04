@@ -8,12 +8,15 @@ import jakarta.persistence.GeneratedValue
 import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
 import jakarta.persistence.Table
+import power.debitservice.model.enums.Currency
+import power.debitservice.model.enums.Type
+import power.debitservice.model.enums.PaymentSystem
 
 
 /**
  * Карточные продукты предлагаемые банком
  *
- * @author А.Гоманюк, К.Балыков
+
  */
 @Entity
 @Table(name = "products")

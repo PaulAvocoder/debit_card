@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestHeader
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.ResponseStatus
 import org.springframework.web.bind.annotation.RestController
+import power.debitservice.dto.CardTransactionDto
+import power.debitservice.service.CardService
 
 
 const val TRANSACTION_URI = "/card/v1/transactions"

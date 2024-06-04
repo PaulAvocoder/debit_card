@@ -1,6 +1,7 @@
 package power.debitservice.dto
 
 
+import power.debitservice.model.enums.Currency
 import java.time.LocalDate
 
 /**
